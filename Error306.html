@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página con Estilos</title>
+    <style>
+        /* Estilo general para el cuerpo */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('universoazul.jpg.jpeg'); /* Imagen de fondo */
+            background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+            background-position: center; /* Centra la imagen */
+            background-attachment: fixed; /* La imagen permanece fija al hacer scroll */
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Asegura que la imagen cubra toda la pantalla */
+            color: white; /* Texto blanco para alto contraste */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        /* Estilo para el encabezado principal */
+        h1 {
+            color: #f6fcfb; /* Color claro para el encabezado */
+            font-size: 3em; /* Aumenté el tamaño de la fuente */
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+            border-radius: 15px; /* Bordes redondeados */
+            max-width: 80%; /* Limita el ancho del texto */
+            line-height: 1.5;
+            text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.6); /* Sombra para mayor contraste */
+        }
+
+        /* Estilo para el párrafo */
+        p {
+            color: #e0e0e0; /* Color de texto más suave */
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 20px 0;
+            max-width: 80%;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+            border-radius: 10px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Sombra al texto */
+        }
+
+        /* Estilo para los enlaces */
+        a {
+            color: #ff6347; /* Color llamativo para los enlaces */
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease; /* Efecto de transición */
+        }
+
+        a:hover {
+            color: #fcf9f6; /* Color claro al hacer hover */
+            background-color: rgba(0, 0, 0, 0.4); /* Fondo oscuro cuando se pasa el ratón */
+            border-radius: 5px;
+            padding: 5px 10px;
+            box-shadow: 0 0 10px rgba(255, 99, 71, 0.6); /* Efecto de sombra */
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado principal -->
+    <h1>¡Te amo, pero no soy tan buena con las palabras, así que te lo expreso en tu idioma de programador!</h1>
+
+    
